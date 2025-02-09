@@ -1,5 +1,4 @@
-
-🎁 Juego del Amigo Secreto
+🎁 JUEGO DEL AMIGO SECRETO 
 
 📌 Descripción
 Este es un juego interactivo del Amigo Secreto desarrollado con HTML, CSS y JavaScript, el cual permite asignar de forma aleatoria a un amigo secreto y visualizar el resultado de manera sencilla y divertida.
@@ -7,7 +6,7 @@ Este juego forma parte de uno de los desafíos llamados 'Amigo Secreto', el cual
 
 🚀 Características
 Interfaz amigable y fácil de usar.
-Asignación aleatoria de amigos secretos.
+Asignación aleatoria de amigo secreto.
 Opción para personalizar nombres de los participantes.
 Animaciones y efectos visuales atractivos.
 

@@ -18,7 +18,11 @@ function agregarAmigo() {
   if (nombre === "") {
     alert("Por favor, inserte un nombre.");
     return; // Detiene la ejecución de la función si el valor es inválido y larga el mensaje
+  }if(arrayAmigos.includes(nombre)){
+    alert("Por favor , para una mejor jugabilidad, no repita los nombres.");
   }
+
+
   arrayAmigos.push(nombre); //agrega el elemento nuevo al final de la lista
 
   // Limpia la caja para que el usuario pueda poner un nuevo nombre
