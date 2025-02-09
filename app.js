@@ -50,9 +50,10 @@ function sortearAmigo() {
 
   let numeroRandom = Math.floor(Math.random() * arrayAmigos.length );
      
-  let resultado  = document.getElementById('resultado');//estu es un numero , justo lo que dice 
+  let resultado  = document.getElementById('resultado');
+ //concateno el mensaje con el nombre del ganador
+  resultado.innerHTML = "su amigo secreto es : "+arrayAmigos[numeroRandom] ;
 
-  resultado.innerHTML = arrayAmigos[numeroRandom] ;
 }
 
 

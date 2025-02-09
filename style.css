@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #1a1891cb;
+    --color-primary: #189191;
     --color-secondary: #ecebff;
-    --color-tertiary: #865f96;
-    --color-button: #fede2bfa;
-    --color-button-hover: #e55720;
+    --color-tertiary: #5f9296c7;
+    --color-button: #13c7c7;
+    --color-button-hover: #7fe520fb;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #fffffffb;
 }
 
 /* Estilos generales */
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #0000002d;
+    border: 1px solid #000000c0;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 47px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -62,10 +62,10 @@ body {
 }
 section-title {
     font-family: "Inter", serif;
-       font-size: 36px;
+       font-size: 39px;
        font-weight: 700;
        color: var(--color-primary);
-       margin: 10px 0;
+       margin: 15px 0;
        text-align: center;
    }
 
@@ -81,7 +81,7 @@ section-title {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #000000ef;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -96,11 +96,11 @@ section-title {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #3333339c;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.589);
 }
 
 /* Estilos de botón */
@@ -121,7 +121,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #a1a1a1e1;
 }
 
 /* Listas */
